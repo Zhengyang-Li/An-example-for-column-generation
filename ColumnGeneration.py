@@ -32,7 +32,8 @@ Column generation algorithm:
         sum_j [ a(ij) * x(j) ] >= b(i)       for i in I (Set of pipes' types)
         x(j) are continuous variables
         
-        Note: In order to get p(i), we can also solve the dual of RMP, where p(i) will be the solution vector.
+        Note: In order to get p(i), we can also solve the dual of RMP, where p(i) will be the solution vector. Acutally, solving the dual of RMP is a better way since
+        the number of variables in RMP dual will not increase. 
         
     SP (output a better cutting plan y(i), and resolve the RMP):
         max = 1 - sum_i [p(i) * y(i)]
