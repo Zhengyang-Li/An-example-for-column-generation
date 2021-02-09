@@ -12,7 +12,7 @@ The length of a raw pipe is 218cm. Now the client wants 44 pipes of 81cm, 3 pipe
 Column generation algorithm:
     Description:
         The column generation will decompose the original problem in to a restricted master problem (RMP) and a subproblem (SP),
-        and solve RMP and SP iteratively until optimal solution is obtained.
+        and solve RMP and SP iteratively until the optimal solution is obtained.
 
     parameters:
         a(ij): the number of pipes i that can obtain from a raw pipe in cutting plan j.
